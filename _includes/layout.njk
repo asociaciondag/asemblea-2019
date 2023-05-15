@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html class="no-js" lang="gl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Asemblea Xeral 2019 - DAG</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="DAG - Asociación Galega de Deseño">
+
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <nav class="page-header wrapper" id="main-header">
+            <a href="https://dag.gal" class="page-logo" title="Asociación Galega de Deseño">
+                <img src="./img/dag.svg" inline>
+            </a>
+        </nav>
+        <!-- /HEADER -->
+
+        <article class="project wrapper">
+          <header>
+            <h1>{{ titulo | safe }}</h1>
+            {{ subtitulo | md | safe }}
+          </header>
+
+          <ul>
+            {% for evento in programa %}
+            <li>
+              <time>{{ evento.hora }}</time>
+              <div>
+                <strong>{{ evento.titulo }}</strong>
+                {{ evento.info | md | safe }}
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <div>
+            {{ info | md | safe }}
+          </div>
+        </article>
+    </body>
+</html>

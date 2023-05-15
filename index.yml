@@ -1,0 +1,39 @@
+layout: layout.njk
+
+titulo: Asemblea <br>Xeral 2019
+
+subtitulo: |
+  Sábado 29 de xuño | Ourense
+
+programa:
+  - hora: 11:00h
+    titulo: Charla Daniel Vila
+    info: |
+        Presentación 988<br>
+        Estudio e proxectos
+    
+  - hora: 12:00h
+    titulo: Descanso
+    
+  - hora: 12:30h
+    titulo: Charla Óscar Otero
+    info: HA! Historia Arte
+    
+  - hora: 14:00h
+    titulo: Xantar
+    
+  - hora: 16:30h
+    titulo: Asemblea xeral da DAG
+
+info: |
+  A xornada de mañá é de entrada libre.
+  A asemblea é só para socios.
+
+  Prégase confirmación de asistencia en: [info@dag.gal](mailto:info@dag.gal)
+  
+  As actividades celebraranse no **Centro Cívico A Ponte**
+
+  Rúa Eulogio Gómez Franqueira, 43, 32001 Ourense<br>
+  (Preto da estación de tren)<br>
+  [Ver en Google Maps](https://goo.gl/maps/NKXfDei8utkMcoby7)
+ 
